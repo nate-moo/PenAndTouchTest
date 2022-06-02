@@ -43,8 +43,6 @@ c.addEventListener("pointerdown", function(event) {
         }
 })
 c.addEventListener("pointermove", function(e) {
-    // let hoverDraw = document.querySelector("#hoverDraw").checked;
-
     switch (e.pointerType) {
         case 'pen':
             if (e.pressure != 0) {
